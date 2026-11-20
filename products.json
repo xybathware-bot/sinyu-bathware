@@ -1,0 +1,7 @@
+[
+  {"id":"sample-faucet","name":"Basin Mixer Faucet","category":"Faucets","model":"Sample · replace with actual model","material":"Material to be confirmed","finish":"Finish to be confirmed","description":"Request specifications and quotation for available basin mixer models.","image":""},
+  {"id":"sample-shower","name":"Shower System","category":"Showers","model":"Sample · replace with actual model","material":"Material to be confirmed","finish":"Finish to be confirmed","description":"Contact us for shower system configurations and available finishes.","image":""},
+  {"id":"sample-sprayer","name":"Handheld Bidet Sprayer","category":"Bidet Sprayers","model":"Sample · replace with actual model","material":"Material to be confirmed","finish":"Finish to be confirmed","description":"Ask about available handheld sprayer options and accessories.","image":""},
+  {"id":"sample-accessory","name":"Bathroom Towel Bar","category":"Accessories","model":"Sample · replace with actual model","material":"Material to be confirmed","finish":"Finish to be confirmed","description":"Request a catalog of bathroom hardware styles and finishes.","image":""},
+  {"id":"sample-drain","name":"Bathroom Drain","category":"Drains & Fittings","model":"Sample · replace with actual model","material":"Material to be confirmed","finish":"Finish to be confirmed","description":"Contact us for bathroom drain and fitting specifications.","image":""}
+]
