@@ -1,4 +1,4 @@
-const CONTACT_EMAIL=''; // IMPORTANT: add your verified sales email before enabling inquiry email
+const CONTACT_EMAIL='tracy@sinyubath.com';; // IMPORTANT: add your verified sales email before enabling inquiry email
 let products=[];let category='All';const grid=document.getElementById('product-grid');
 function escapeHTML(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 function render(){const list=products.filter(p=>category==='All'||p.category===category);grid.innerHTML=list.length?list.map(p=>`<article class="product-card"><div class="product-image">${p.image?`<img src="${escapeHTML(p.image)}" alt="${escapeHTML(p.name)}" loading="lazy">`:`<span class="placeholder">${escapeHTML(p.category)}</span>`}</div><div class="product-info"><p>${escapeHTML(p.category)}</p><h3>${escapeHTML(p.name)}</h3><p>${escapeHTML(p.model)}</p><button type="button" data-id="${escapeHTML(p.id)}">View Details & Inquire →</button></div></article>`).join(''):'<p>No products in this category yet.</p>'}
